@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		DF60DD8525B0B04000A38F19 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF60DD8425B0B04000A38F19 /* main.cpp */; };
+		DF60E1E325B485A500ECBA35 /* sourcecode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF60E1E125B485A500ECBA35 /* sourcecode.cpp */; };
+		DF60E1E725B487C500ECBA35 /* parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF60E1E525B487C500ECBA35 /* parser.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		DF60DD8125B0B04000A38F19 /* PythonCoreFramework */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PythonCoreFramework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF60DD8425B0B04000A38F19 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DF60E1E125B485A500ECBA35 /* sourcecode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sourcecode.cpp; sourceTree = "<group>"; };
+		DF60E1E225B485A500ECBA35 /* sourcecode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = sourcecode.hpp; sourceTree = "<group>"; };
+		DF60E1E525B487C500ECBA35 /* parser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = parser.cpp; sourceTree = "<group>"; };
+		DF60E1E625B487C500ECBA35 /* parser.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = parser.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				DF60DD8425B0B04000A38F19 /* main.cpp */,
+				DF60E1E125B485A500ECBA35 /* sourcecode.cpp */,
+				DF60E1E225B485A500ECBA35 /* sourcecode.hpp */,
+				DF60E1E525B487C500ECBA35 /* parser.cpp */,
+				DF60E1E625B487C500ECBA35 /* parser.hpp */,
 			);
 			path = PythonCoreFramework;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF60E1E725B487C500ECBA35 /* parser.cpp in Sources */,
+				DF60E1E325B485A500ECBA35 /* sourcecode.cpp in Sources */,
 				DF60DD8525B0B04000A38F19 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,7 +143,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++2a";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -190,7 +202,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++2a";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
