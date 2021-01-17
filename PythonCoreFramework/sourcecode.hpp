@@ -39,6 +39,8 @@ namespace PythonCoreFramework::Runtime
         //uint32_t size();
         //char32_t at(uint32_t index);
         uint32_t getPosition() { return m_index; };
+        uint32_t getRawPosition() { return m_rawIndex; };
+
     };
 }
 
